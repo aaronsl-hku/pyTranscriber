@@ -15,9 +15,9 @@
 from PyQt5.QtCore import QThread
 from PyQt5.QtCore import pyqtSignal
 from pathlib import Path
-from pytranscriber.util.srtparser import SRTParser
-from pytranscriber.util.util import MyUtil
-from pytranscriber.control.ctr_autosub import Ctr_Autosub
+from ..util.srtparser import SRTParser
+from ..util.util import MyUtil
+from ..control.ctr_autosub import Ctr_Autosub
 import os
 
 

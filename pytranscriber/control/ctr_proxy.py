@@ -5,8 +5,8 @@
 
 
 from PyQt5.QtWidgets import QDialog, QMessageBox
-from pytranscriber.gui.proxy import Ui_Dialog
-from pytranscriber.util.util import MyUtil
+from ..gui.proxy import Ui_Dialog
+from ..util.util import MyUtil
 
 
 class Ctr_Proxy(QDialog):

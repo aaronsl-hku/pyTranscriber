@@ -353,6 +353,11 @@ class Ctr_Main():
 
             objParamAutosub = Param_Autosub(listFiles, outputFolder, langCode,
                                             boolOpenOutputFilesAuto, Ctr_Main.proxy)
+            print("listFiles = ", listFiles)
+            print("outputFolder = ", outputFolder)
+            print("langCode = ", langCode)
+            print("boolOpenOutputFilesAuto = ", boolOpenOutputFilesAuto)
+            print("Ctr_Main.proxy: ", Ctr_Main.proxy)
 
             # execute the main process in separate thread to avoid gui lock
             self.thread_exec = Thread_Exec_Autosub(objParamAutosub)
