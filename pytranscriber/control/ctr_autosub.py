@@ -61,13 +61,6 @@ class Ctr_Autosub():
             subtitle_file_format=DEFAULT_SUBTITLE_FORMAT,
             proxies=None
         ):
-        print("source_path =", source_path, ",")
-        print("src_language =", src_language, ",")
-        print("listener_progress =", listener_progress, ",")
-        print("output =", output, ",")
-        print("concurrency =", concurrency, ",")
-        print("subtitle_file_format =", subtitle_file_format, ",")
-        print("proxies =", proxies, ",")
 
         # windows not support forkserver... only spawn
         if os.name != "nt" and "Darwin" in os.uname():
